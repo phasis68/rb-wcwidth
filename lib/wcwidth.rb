@@ -19,7 +19,9 @@
 # - Adapted for Mutt by Edmund Grimley Evans.
 # - Changed 'first'/'last' members of combined[] to wchar_t from
 #   unsigned short to fix compiler warnings, 2007-11-13, Rocco Rutte
-#
+# 
+# Translated from https://github.com/fumiyas/wcwidth-cjk/
+# Copyright (c) 2013 SATOH Fumiyasu @ OSS Technology Corp., Japan
 
 class String
   # sorted list of non-overlapping intervals of non-spacing characters 
