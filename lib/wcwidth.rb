@@ -214,13 +214,6 @@ protected
 
     wcwidth_ucs(ucs)
   end
-  
-
-  def mk_wcswidth(ucs)
-    ws = self.each_char.map(&:width)
-    return -1 unless ws.all?{|x|x>=0}
-    ws.inject(:+)
-  end
 
 public
   #
