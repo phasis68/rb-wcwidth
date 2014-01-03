@@ -223,7 +223,14 @@ protected
   end
 
 public
-
+  #
+  #  :call-seq:
+  #     str.wcwidth   -> integer
+  #
+  #  Returns the number of column positions required to display the first character of the string
+  #  
+  #  "a".wcwidth    #=> 1
+  #  
   def wcwidth
     return 0 if self.size == 0
     if self.encoding==Encoding::UTF_8    
@@ -235,6 +242,14 @@ public
     wcwidth_cjk(str.ord)
   end
   
+  #
+  #  :call-seq:
+  #     str.wcswidth   -> integer
+  #
+  #  Returns the number of column positions required for the string
+  #  
+  #  "abc".wcwidth    #=> 3
+  #  
   def wcswidth
     return 0 if self.size == 0
     if self.encoding==Encoding::UTF_8    
