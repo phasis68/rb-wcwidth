@@ -1,18 +1,17 @@
-# encoding: CP949
 #
-#This is an implementation of wcwidth() and wcswidth() (defined in
-#IEEE Std 1002.1-2001) for Unicode.
+# This is an implementation of wcwidth() and wcswidth() (defined in
+# IEEE Std 1002.1-2001) for Unicode.
 #
-#http://www.opengroup.org/onlinepubs/007904975/functions/wcwidth.html
-#http://www.opengroup.org/onlinepubs/007904975/functions/wcswidth.html
+# http://www.opengroup.org/onlinepubs/007904975/functions/wcwidth.html
+# http://www.opengroup.org/onlinepubs/007904975/functions/wcswidth.html
 #
-#Markus Kuhn -- 2007-05-26 (Unicode 5.0)
+# Markus Kuhn -- 2007-05-26 (Unicode 5.0)
 #
-#Permission to use, copy, modify, and distribute this software
-#for any purpose and without fee is hereby granted. The author
-#disclaims all warranties with regard to this software.
+# Permission to use, copy, modify, and distribute this software
+# for any purpose and without fee is hereby granted. The author
+# disclaims all warranties with regard to this software.
 #
-#Latest version: http://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c
+# Latest version: http://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c
 #
 
 # Changes made for mutt:
